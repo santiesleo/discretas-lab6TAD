@@ -34,7 +34,7 @@ public class Node <K extends Comparable, T> {
         return right;
     }
 
-    public void setRight(Node right) {
+    public void setRight(Node<K, T> right) {
         this.right = right;
     }
 
@@ -42,7 +42,7 @@ public class Node <K extends Comparable, T> {
         return left;
     }
 
-    public void setLeft(Node left) {
+    public void setLeft(Node<K, T> left) {
         this.left = left;
     }
 }
